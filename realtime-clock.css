@@ -1,0 +1,36 @@
+body, html {
+  margin: 0;
+  height: 100%;
+  background-image: url("bg/plasma1920.png");
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-contanier {
+  width: 100%
+  height: 1080px;
+  position: relative;
+}
+
+h1 {
+  width: 100%;
+  font-family: Oswald;
+  text-shadow: 5px 4px 4px;
+  text-align: center;
+  margin-top: 9%;
+  font-size: 10vw;
+  position: absolute;
+}
+
+#clock {
+  width: 80%;
+  margin: auto;
+  font-family: Ubuntu;
+  font-weight: bold;
+  text-shadow: 4px 4px 9px grey;
+  text-align: center;
+  font-size: 6vw;
+  padding: 2vw;
+  }
